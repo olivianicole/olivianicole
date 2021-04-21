@@ -1810,7 +1810,8 @@ input, select, textarea {
 		.author img {
 			border-radius: 100%;
 			display: block;
-			width: 4em;
+			width: 75px;
+			height: 75px;
 		}
 
 		.author:hover .name {
@@ -2281,6 +2282,11 @@ input, select, textarea {
 			float: right;
 		}
 
+		.icon img {
+			height: 20px;
+			width: 20px;
+			color: black;
+		}
 /* Image */
 
 	.image {
