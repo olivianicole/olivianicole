@@ -1,0 +1,22 @@
+.about-img-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-img-container img {
+    height: 300px;
+    width: 300px;
+    object-fit: scale-down;
+}
+
+.project-links {
+   display: flex;
+   flex-direction: row;
+}
+
+.project-links h3 {
+    padding-right: 30px;
+    cursor: pointer;
+}
