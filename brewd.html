@@ -93,19 +93,30 @@
                 </header>
                 <div class="proj-container">
                     <img src="images/brewd.png" />
-                    <p></p>
+                    <p>Brewd, a clone of untappd.com, is a site designed for coffee lovers to share their coffee-drinking experiences and rate
+                    their favorite beverages! The sign-up portion of our user authorization is featured on the left. The page is composed of
+                    various React elements, and styled with CSS to closely match the design of the original site. Upon creating an account,
+                    the user’s information is stored in the Redux state as well as saved to the PostgreSQL database.</p>
                 </div>
                 <div class="proj-container">
                     <img src="images/brewd2.png" />
-                    <p></p>
+                    <p>On the main page of Brewd a user can browse through posts made by other users. The logged-in user can engage with the
+                    posts via likes and comments. The sidebar list of featured coffees as well as the coffees and shops throughout the rest
+                    of the site link to an individual coffee/shop page when clicked on.</p>
                 </div>
                 <div class="proj-container">
                     <img src="images/brewd3.png" />
-                    <p></p>
+                    <p>The individual coffee page is where a user can leave a rating/review on said coffee, as well as browse all related
+                    reviews. The average rating and number of ratings updates in real-time as new ratings are made. The green coffee button
+                    opens up a modal where the user can submit a new rating.</p>
                 </div>
                 <div class="proj-container">
                     <img src="images/brewd4.png" />
-                    <p></p>
+                    <p>When creating a new rating, the user has the ability to upload a photo. After the user selects the photo they’d like to
+                    upload, its uploaded to AWS via helper functions called on the backend POST route. After the photo is uploaded, the url
+                    is retrieved on the front end and passed into the same Redux-thunk function that handles the submission of the rest of
+                    the form. Handling the upload to AWS via a separate backend route allows the photo upload to finish before the user
+                    submits the form. As a result, the user experience’s no delay when submitting their post.</p>
                 </div>
             
             </article>

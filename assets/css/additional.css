@@ -20,14 +20,19 @@
     padding-right: 30px;
     cursor: pointer;
 }
-
+.proj-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
 .proj-container img {
     height: auto;
     width: 500px;
-	margin-bottom: -5px;
+	margin: 0 75px -5px 25px;
 	transition: all 0.3s ease-out;
 	position: relative;
 	z-index: 2;
+
 }
 
 .proj-container:hover img{
