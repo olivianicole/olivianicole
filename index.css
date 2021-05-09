@@ -1,0 +1,9 @@
+.readme-main-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+}
+.readme-link-containers {
+    display: flex;
+    flex-direction: row;
+}
