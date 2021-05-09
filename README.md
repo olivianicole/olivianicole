@@ -6,7 +6,7 @@
 <h6>🖥 App Academy 2021</h6>
 <h6> JavaScript | Git | HTML / CSS | React / Redux | Python | Sequelize | PostgreSQL  | SQLAlchemy | Express | Flask  </h6>
 <h6>📚 Currently Learning: React Native and Mobile Development!</h6>
-<h6>Contact me at</h6><a href="oliviayoung.dev@gmail.com">✉️ oliviayoung.dev.gmail.com</a>
+<h6>Contact me at</h6><a href="mailto:oliviayoung.dev@gmail.com">✉️ oliviayoung.dev.gmail.com</a>
 <h6>Connect with me on</h6><a href="https://www.linkedin.com/in/olivianicoleyoung/">👥 LinkedIn</a>
         
 
